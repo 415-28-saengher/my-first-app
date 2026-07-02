@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 st.title("My Digital Profile")
 st.header("แนะนำตัว")
 st.write("นายแสงเฮอ")
