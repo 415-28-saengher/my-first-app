@@ -7,7 +7,7 @@ price = st.number_input("กรอกราคาสินค้า (บาท):
 
 # คำนวณ VAT และราคาสุทธิ
 vat = price * 0.07
-net_price = price + vat
+net_price = price - vat
 
 # แสดงผล
 st.header(f"• ภาษีมูลค่าเพิ่ม (VAT 7%): {vat:.2f} บาท")
